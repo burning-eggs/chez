@@ -1,0 +1,11 @@
+[package]
+name = "chez"
+version = "0.1.0"
+authors = ["flying-dojo"]
+edition = "2018"
+
+[dependencies]
+legion = { git = "https://github.com/amethyst/legion.git" }
+nalgebra = "0.28.0"
+wgpu = "0.9.0"
+winit = "0.25.0"
